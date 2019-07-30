@@ -35,6 +35,7 @@
             <field name="inherit_id" ref="hr.view_employee_tree"/>
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='name']" position="after">
+                        <field name="employee_id" string="Employee Id"/>
                         <field name="employment" string="Hiring Date"/>
                         <field name="resignation_date" string="Resignation Date"/>
                 </xpath>
